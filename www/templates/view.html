@@ -1,0 +1,14 @@
+<header ng-click="goBack()">
+    <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABHklEQVRoQ93azQnCQBAF4KQDS9EOtBK1Mi1JO7EEZ0Ah5CDs7rwfszAEwh7yzeTyYOZpI2feiGNyg+yisa+e5jpBbgHYR516MC6QRFw+k3jE89A6FQfIEpHff426/xukBJFo5UTKEEpIKUIFKUcoIBAEGwJDMCFQBAsCRzAgFAQaQkMgIVQECkJHICASRDVEhqiESBFVEDmiAmKBGIXYIEYgVogRSGbq8yJXd+Xs1lz+6/5I1LXCjECyQTaYUYgNpgJigamCyDGVECmmGiLDICASDApCxyAhVAwaQsMwIBQMCwLHMCFQDBsCwyggEIwKUo5RQkoxakgZxgGyxjzjRW5ANB0XyBeTgGNU8z6KEyQxm1iqafqV1pfdJtKNeQM0nVozpD3xJgAAAABJRU5ErkJggg=="></div>
+    <h1>{{recipe.name}}</h1>
+</header>
+
+<article>
+    <ul>
+        <li>{{recipe.procedure}}</li>
+        <li ng-repeat="ingredient in recipe.ingredients"><img ng-src="{{ingredient.icon}}">{{ingredient.text}}</li>
+        <li>{{recipe.servings}}</li>
+    </ul>
+</article>
+
+<div class="logo"><a href="http://www.steadyhealth.com/articles/weight-loss-smoothies-can-boost-your-health"><img ng-src="img/steadyhealth-logo.png"></a></div>

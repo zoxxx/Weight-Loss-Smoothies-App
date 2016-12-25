@@ -1,0 +1,189 @@
+/* ==========================================================================
+HOME PAGE STYLES
+========================================================================== */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
+    -webkit-user-select: none;
+    -webkit-backface-visibility: hidden;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#567E3A;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+#positions {
+    position:fixed;
+    top: 1em;
+    right: 1em;
+    height: 3em;
+    width: 20em;
+    background-color: green;
+    z-index: 10;
+}
+
+#container {
+    background-color: red;
+}
+
+input[type=search] {
+    -webkit-user-select: text;
+    display: block;
+    width: 85%;
+    border-radius: 50px 50px;
+    height:2em;
+    background: url(../img/search.png) no-repeat left;
+    padding-left:2.5em;
+    outline:none;
+    border:0;
+    border-bottom: 1px solid black;
+
+}
+::-webkit-input-placeholder {
+    color: gray;
+}
+
+#homeList a {
+    text-decoration: none;
+    color:black;
+}
+#homeList {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 3px;
+}
+
+#homeList li {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    /*border-top: 1px solid black;*/
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    position: relative;
+    height: 3em;
+    padding-left: 0.2em;
+}
+
+.found {
+    background: rgb(236, 245, 236) url(../img/arrow.png) no-repeat right;
+}
+
+#homeList div:active {
+    background-color:rgba(50,200,50,0.2);
+}
+/*
+div > a > span {
+   display: none;
+}
+*/
+span {
+    padding-left:3.5em;
+}
+
+a div {
+    position:absolute;
+    top:0;
+    width:95%;
+}
+
+.recipeName {
+    line-height: 3em;
+}
+
+#homeList li img {
+    width: 3em;
+}
+
+.notFound {
+    background-color: lightcoral;
+    padding-left: 0.5em;
+}
+
+/* ==========================================================================
+   SINGLE PAGE STYLES
+   ========================================================================== */
+header {
+    height: 3em;
+    border: 1px solid black;
+    border-left:none;
+    border-right:none;
+    background-color: rgb(236, 245, 236);
+}
+
+header div {
+    margin: 0.5em 0.5em 0 0.5em;
+    float: left;
+    margin-top: 0.3em;
+    padding-top: 0.4em;
+}
+
+header img {
+    height: 1.7em;
+}
+
+header h1 {
+    font-size: 1.2em;
+    margin-top: 0.7em;
+}
+
+article ul {
+    margin: 0;
+    padding: 0.5em;
+}
+
+article ul li img {
+    vertical-align: middle;
+    width: 32px;
+    padding-right: 0.7em;
+}
+
+article ul li {
+    display: -webkit-box;
+    -webkit-box-align:center;
+    list-style-type: none;
+    padding: 0.2em;
+    padding-top: 0.7em;
+}
+
+article ul li:first-child,
+article ul li:last-child {
+    font-size: 0.9em;
+    font-weight:bold;
+    list-style-type: none;
+    padding: 0.5em;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.notFound {
+
+}
+
+/* ==========================================================================
+Helper classes
+========================================================================== */
+
+.clearfix:before {
+    content:" ";
+    display:table;
+}
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
