@@ -21,7 +21,7 @@ Build project:
 
 ## Credits
 
-To complete this app I've used steadyhealth's database of weight loss recipes which is also provided. Images inside the app are under proprietary license so these are not included.
+Images inside the app are under proprietary license so these are not included.
 
 ## About app idea
 
@@ -29,11 +29,11 @@ This app is the perfect companion for anyone who is wondering how to lose weight
 
 Smoothies, and green smoothies in particular, can be your best friend on your personal road to healthy weight loss that lasts. Smoothies are more than a tasty drink: the best smoothies offer you the perfect combination of carbs, protein, healthy fats, and vitamins and minerals. They can increase your energy levels and boost your metabolism, offering a long-term solution you won’t want to give up on even after you’ve lost your desired number of pounds, rather than a torturous weight loss diet you will get so sick of that you end up binging on junk foods.
 
-If you like smoothies you can read more at http://www.steadyhealth.com/articles/weight-loss-smoothies-can-boost-your-health
+If you like smoothies you can read more at https://www.steadyhealth.com/articles/weight-loss-smoothies-can-boost-your-health
 
 ## Examples
 
-You can check how app works here: https://play.google.com/store/apps/details?id=com.steadyhealth.wls 
+You can check how app works here ...
 
 ## Testing
 
